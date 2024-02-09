@@ -1027,6 +1027,10 @@ margin: -3px;
     align-items: center;
   }
 
+  .about-img img{
+    width: 100%;
+    }
+
   .abouthome-section{
     position: relative !important;
   }
@@ -1527,10 +1531,12 @@ align-items: center;
 
 .form-section form textarea{
   width: 35rem;
-  padding-bottom: 25px;
+  padding-bottom: 0px;
+  color: var(--mainWhite);
   margin: 20px 0px 30px 0px;
   background: transparent;
   border: none;
+  font-size: 1rem;
   outline: none;
   border-bottom: 2px solid var(--primaryColor);
 }

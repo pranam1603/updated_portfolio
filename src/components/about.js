@@ -9,7 +9,7 @@ const about = () => {
                     params={{
                         "particles": {
                             "number": {
-                                "value": 30
+                                "value": 35
                             },
                             "size": {
                                 "value": 3

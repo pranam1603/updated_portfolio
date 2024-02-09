@@ -172,54 +172,54 @@ export default [
             },
         ]
     },
-    {
-        id: 38,
-        text: 'Todo',
-        url: 'https://pranam1603.github.io/Todolist/todo.html',
-        code: 'https://github.com/pranam1603/Todolist',
-        type: 'Exclusive Project',
-        category: 'Html Css',
-        image: Todohtml,
-        language: [
-            {
-                icon: <FaHtml5 />,
-                iconText: 'HTML',
-            },
-            {
-                icon: <FaCss3Alt />,
-                iconText: 'CSS'
-            },
-            {
-                icon: <SiJquery />,
-                iconText: 'jQuery'
-            },
-        ]
-    },
+    // {
+    //     id: 38,
+    //     text: 'Todo',
+    //     url: 'https://pranam1603.github.io/Todolist/todo.html',
+    //     code: 'https://github.com/pranam1603/Todolist',
+    //     type: 'Exclusive Project',
+    //     category: 'Html Css',
+    //     image: Todohtml,
+    //     language: [
+    //         {
+    //             icon: <FaHtml5 />,
+    //             iconText: 'HTML',
+    //         },
+    //         {
+    //             icon: <FaCss3Alt />,
+    //             iconText: 'CSS'
+    //         },
+    //         {
+    //             icon: <SiJquery />,
+    //             iconText: 'jQuery'
+    //         },
+    //     ]
+    // },
 
 
-    {
-        id: 2,
-        text: 'Tours',
-        url: 'https://react-tourproject.netlify.app/',
-        code: 'https://github.com/pranam1603/react-tour',
-        category: 'React',
-        type: 'basic project',
-        image: Tour,
-        language: [
-            {
-                icon: <FaHtml5 />,
-                iconText: 'HTML',
-            },
-            {
-                icon: <FaCss3Alt />,
-                iconText: 'CSS'
-            },
-            {
-                icon: <FaReact />,
-                iconText: 'REACT'
-            },
-        ]
-    },
+    // {
+    //     id: 2,
+    //     text: 'Tours',
+    //     url: 'https://react-tourproject.netlify.app/',
+    //     code: 'https://github.com/pranam1603/react-tour',
+    //     category: 'React',
+    //     type: 'basic project',
+    //     image: Tour,
+    //     language: [
+    //         {
+    //             icon: <FaHtml5 />,
+    //             iconText: 'HTML',
+    //         },
+    //         {
+    //             icon: <FaCss3Alt />,
+    //             iconText: 'CSS'
+    //         },
+    //         {
+    //             icon: <FaReact />,
+    //             iconText: 'REACT'
+    //         },
+    //     ]
+    // },
 
     {
         id: 3,
@@ -274,29 +274,29 @@ export default [
 
     },
 
-    {
-        id: 25,
-        text: 'Animated Navbar',
-        url: 'https://pranam1603.github.io/animatedNavbar/',
-        code: 'https://github.com/pranam1603/animatedNavbar',
-        category: 'Html Css',
-        type: 'Basic Project',
-        image: Aninav,
-        language: [
-            {
-                icon: <FaHtml5 />,
-                iconText: 'HTML',
-            },
-            {
-                icon: <FaCss3Alt />,
-                iconText: 'CSS'
-            },
-            {
-                icon: <SiJavascript />,
-                iconText: 'JS'
-            },
-        ]
-    },
+    // {
+    //     id: 25,
+    //     text: 'Animated Navbar',
+    //     url: 'https://pranam1603.github.io/animatedNavbar/',
+    //     code: 'https://github.com/pranam1603/animatedNavbar',
+    //     category: 'Html Css',
+    //     type: 'Basic Project',
+    //     image: Aninav,
+    //     language: [
+    //         {
+    //             icon: <FaHtml5 />,
+    //             iconText: 'HTML',
+    //         },
+    //         {
+    //             icon: <FaCss3Alt />,
+    //             iconText: 'CSS'
+    //         },
+    //         {
+    //             icon: <SiJavascript />,
+    //             iconText: 'JS'
+    //         },
+    //     ]
+    // },
 
 
     {
@@ -395,29 +395,29 @@ export default [
         ]
     },
 
-    {
-        id: 35,
-        text: 'Progress Report',
-        url: 'https://progress-report-0742a3.netlify.app',
-        code: 'https://github.com/pranam1603/progressReport',
-        category: 'Html Css',
-        type: 'Basic Project',
-        image: Progress,
-        language: [
-            {
-                icon: <FaHtml5 />,
-                iconText: 'HTML',
-            },
-            {
-                icon: <FaCss3Alt />,
-                iconText: 'CSS'
-            },
-            {
-                icon: <SiJavascript />,
-                iconText: 'JS'
-            },
-        ]
-    },
+    // {
+    //     id: 35,
+    //     text: 'Progress Report',
+    //     url: 'https://progress-report-0742a3.netlify.app',
+    //     code: 'https://github.com/pranam1603/progressReport',
+    //     category: 'Html Css',
+    //     type: 'Basic Project',
+    //     image: Progress,
+    //     language: [
+    //         {
+    //             icon: <FaHtml5 />,
+    //             iconText: 'HTML',
+    //         },
+    //         {
+    //             icon: <FaCss3Alt />,
+    //             iconText: 'CSS'
+    //         },
+    //         {
+    //             icon: <SiJavascript />,
+    //             iconText: 'JS'
+    //         },
+    //     ]
+    // },
 
 
     {
@@ -512,29 +512,29 @@ export default [
             },
         ]
     },
-    {
-        id: 33,
-        text: 'Sound Bar',
-        url: 'https://pranam1603.github.io/soundBar/',
-        code: 'https://github.com/pranam1603/soundBar',
-        image: Sound,
-        category: 'Html Css',
-        type: 'Basic Project',
-        language: [
-            {
-                icon: <FaHtml5 />,
-                iconText: 'HTML',
-            },
-            {
-                icon: <FaCss3Alt />,
-                iconText: 'CSS'
-            },
-            {
-                icon: <SiJavascript />,
-                iconText: 'JS'
-            },
-        ]
-    },
+    // {
+    //     id: 33,
+    //     text: 'Sound Bar',
+    //     url: 'https://pranam1603.github.io/soundBar/',
+    //     code: 'https://github.com/pranam1603/soundBar',
+    //     image: Sound,
+    //     category: 'Html Css',
+    //     type: 'Basic Project',
+    //     language: [
+    //         {
+    //             icon: <FaHtml5 />,
+    //             iconText: 'HTML',
+    //         },
+    //         {
+    //             icon: <FaCss3Alt />,
+    //             iconText: 'CSS'
+    //         },
+    //         {
+    //             icon: <SiJavascript />,
+    //             iconText: 'JS'
+    //         },
+    //     ]
+    // },
     {
         id: 19,
         text: 'Cart',
@@ -753,76 +753,76 @@ export default [
             },
         ]
     },
-    {
-        id: 32,
-        text: 'Hidden Serch',
-        url: 'https://pranam1603.github.io/hiddenSearch/index.html',
-        code: 'https://github.com/pranam1603/hiddenSearch',
-        category: 'Html Css',
-        type: 'Basic Project',
-        image: Search,
-        language: [
-            {
-                icon: <FaHtml5 />,
-                iconText: 'HTML',
-            },
-            {
-                icon: <FaCss3Alt />,
-                iconText: 'CSS'
-            },
-            {
-                icon: <SiJavascript />,
-                iconText: 'JS'
-            },
-        ]
-    },
+    // {
+    //     id: 32,
+    //     text: 'Hidden Serch',
+    //     url: 'https://pranam1603.github.io/hiddenSearch/index.html',
+    //     code: 'https://github.com/pranam1603/hiddenSearch',
+    //     category: 'Html Css',
+    //     type: 'Basic Project',
+    //     image: Search,
+    //     language: [
+    //         {
+    //             icon: <FaHtml5 />,
+    //             iconText: 'HTML',
+    //         },
+    //         {
+    //             icon: <FaCss3Alt />,
+    //             iconText: 'CSS'
+    //         },
+    //         {
+    //             icon: <SiJavascript />,
+    //             iconText: 'JS'
+    //         },
+    //     ]
+    // },
 
-    {
-        id: 40,
-        text: 'slider',
-        url: 'https://slider-slider-b07311.netlify.app/',
-        code: 'https://github.com/pranam1603/slider',
-        category: 'React',
-        type: 'basic project',
-        image: Slider,
-        language: [
-            {
-                icon: <FaHtml5 />,
-                iconText: 'HTML',
-            },
-            {
-                icon: <FaCss3Alt />,
-                iconText: 'CSS'
-            },
-            {
-                icon: <FaReact />,
-                iconText: 'REACT'
-            },
-        ]
-    },
-    {
-        id: 7,
-        text: 'Navbar ',
-        url: 'https://navbar-engelbart-d9f3f1.netlify.app/',
-        code: 'https://github.com/pranam1603/navbar-react',
-        category: 'React',
-        type: 'basic project',
-        image: Navbar,
-        language: [
-            {
-                icon: <FaHtml5 />,
-                iconText: 'HTML',
-            },
-            {
-                icon: <FaCss3Alt />,
-                iconText: 'CSS'
-            },
-            {
-                icon: <FaReact />,
-                iconText: 'REACT'
-            },
-        ]
-    },
+    // {
+    //     id: 40,
+    //     text: 'slider',
+    //     url: 'https://slider-slider-b07311.netlify.app/',
+    //     code: 'https://github.com/pranam1603/slider',
+    //     category: 'React',
+    //     type: 'basic project',
+    //     image: Slider,
+    //     language: [
+    //         {
+    //             icon: <FaHtml5 />,
+    //             iconText: 'HTML',
+    //         },
+    //         {
+    //             icon: <FaCss3Alt />,
+    //             iconText: 'CSS'
+    //         },
+    //         {
+    //             icon: <FaReact />,
+    //             iconText: 'REACT'
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 7,
+    //     text: 'Navbar ',
+    //     url: 'https://navbar-engelbart-d9f3f1.netlify.app/',
+    //     code: 'https://github.com/pranam1603/navbar-react',
+    //     category: 'React',
+    //     type: 'basic project',
+    //     image: Navbar,
+    //     language: [
+    //         {
+    //             icon: <FaHtml5 />,
+    //             iconText: 'HTML',
+    //         },
+    //         {
+    //             icon: <FaCss3Alt />,
+    //             iconText: 'CSS'
+    //         },
+    //         {
+    //             icon: <FaReact />,
+    //             iconText: 'REACT'
+    //         },
+    //     ]
+    // },
 
 
     {
@@ -898,53 +898,53 @@ export default [
     },
 
 
-    {
-        id: 28,
-        text: 'Button Ripple',
-        url: 'https://pranam1603.github.io/buttonRipple/',
-        code: 'https://github.com/pranam1603/buttonRipple',
-        image: Buttonripple,
-        category: 'Html Css',
-        type: 'Basic Project',
-        language: [
-            {
-                icon: <FaHtml5 />,
-                iconText: 'HTML',
-            },
-            {
-                icon: <FaCss3Alt />,
-                iconText: 'CSS'
-            },
-            {
-                icon: <SiJavascript />,
-                iconText: 'JS'
-            },
-        ]
-    },
+    // {
+    //     id: 28,
+    //     text: 'Button Ripple',
+    //     url: 'https://pranam1603.github.io/buttonRipple/',
+    //     code: 'https://github.com/pranam1603/buttonRipple',
+    //     image: Buttonripple,
+    //     category: 'Html Css',
+    //     type: 'Basic Project',
+    //     language: [
+    //         {
+    //             icon: <FaHtml5 />,
+    //             iconText: 'HTML',
+    //         },
+    //         {
+    //             icon: <FaCss3Alt />,
+    //             iconText: 'CSS'
+    //         },
+    //         {
+    //             icon: <SiJavascript />,
+    //             iconText: 'JS'
+    //         },
+    //     ]
+    // },
 
-    {
-        id: 34,
-        text: 'Sticky Navbar',
-        url: 'https://pranam1603.github.io/stickyNavbar/',
-        code: 'https://github.com/pranam1603/stickyNavbar',
-        image: Stickynav,
-        category: 'Html Css',
-        type: 'Basic Project',
-        language: [
-            {
-                icon: <FaHtml5 />,
-                iconText: 'HTML',
-            },
-            {
-                icon: <FaCss3Alt />,
-                iconText: 'CSS'
-            },
-            {
-                icon: <SiJavascript />,
-                iconText: 'JS'
-            },
-        ]
-    },
+    // {
+    //     id: 34,
+    //     text: 'Sticky Navbar',
+    //     url: 'https://pranam1603.github.io/stickyNavbar/',
+    //     code: 'https://github.com/pranam1603/stickyNavbar',
+    //     image: Stickynav,
+    //     category: 'Html Css',
+    //     type: 'Basic Project',
+    //     language: [
+    //         {
+    //             icon: <FaHtml5 />,
+    //             iconText: 'HTML',
+    //         },
+    //         {
+    //             icon: <FaCss3Alt />,
+    //             iconText: 'CSS'
+    //         },
+    //         {
+    //             icon: <SiJavascript />,
+    //             iconText: 'JS'
+    //         },
+    //     ]
+    // },
 
     {
         id: 26,
@@ -996,23 +996,23 @@ export default [
     },
 
 
-    {
-        id: 39,
-        text: 'Image Gallery',
-        url: 'https://pranam1603.github.io/imagegallery/imagegallery.html',
-        code: 'https://github.com/pranam1603/imagegallery',
-        category: 'Html Css',
-        type: 'Basic Project',
-        image: Imagegallery,
-        language: [
-            {
-                icon: <FaHtml5 />,
-                iconText: 'HTML',
-            },
-            {
-                icon: <FaCss3Alt />,
-                iconText: 'CSS'
-            },
-        ]
-    },
+    // {
+    //     id: 39,
+    //     text: 'Image Gallery',
+    //     url: 'https://pranam1603.github.io/imagegallery/imagegallery.html',
+    //     code: 'https://github.com/pranam1603/imagegallery',
+    //     category: 'Html Css',
+    //     type: 'Basic Project',
+    //     image: Imagegallery,
+    //     language: [
+    //         {
+    //             icon: <FaHtml5 />,
+    //             iconText: 'HTML',
+    //         },
+    //         {
+    //             icon: <FaCss3Alt />,
+    //             iconText: 'CSS'
+    //         },
+    //     ]
+    // },
 ]
