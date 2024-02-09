@@ -9,7 +9,7 @@ export default [
       {
         id: 100,
         text: 'YelpCamp',
-        url: 'https://quiet-eyrie-98125.herokuapp.com/',
+        url: 'https://yelpcampcode-production.up.railway.app/',
         code: 'https://github.com/pranam1603/yelpCamp_code',
         image: Yelp,
         category: 'Node Mongo',

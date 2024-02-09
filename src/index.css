@@ -284,6 +284,7 @@ Variables
 .navigation__list{
   position: absolute;
   top: 50%;
+  width: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -387,6 +388,11 @@ Variables
     z-index: 1000;
     transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
   }
+
+  .navigation__link:link,
+.navigation__link:visited{
+  padding: 10px 0px;
+}
 }
 
 /* ------------------------- */
@@ -568,7 +574,7 @@ Variables
 }
 
 .imagecontainer {
-  top: 20%;
+  top: 12%;
   transform: translate(0);
 }
 
@@ -869,7 +875,7 @@ Variables
   }
 
   .job-info h3{
-    font-size: 4.8rem;
+    font-size: 4rem;
   }
   .job-info h4 {
     font-size: 1.2rem;
@@ -1612,7 +1618,7 @@ align-items: center;
 
     .contact-info p{
       text-align: center;
-      font-size: 1.2rem;
+      font-size: 1rem;
       margin: 0;
       font-weight: 500;
       padding-left: 20px;
@@ -1621,13 +1627,13 @@ align-items: center;
       line-height: 30px;
       width: 100%;
     }
-
+    
     .form-section button {
       margin: 0 auto 40px;
     }
 
     .contact-info h2{
-      font-size: 2.4rem;
+      font-size: 2rem;
       margin-top: 45px;
     }
 
@@ -1661,6 +1667,16 @@ align-items: center;
         border-bottom: 5px solid #426838;
         width: 20vw !important;
       }   */
+  }
+
+  @media (max-width: 700px) {
+    #contact #shadow{
+      font-size: 3.4rem;
+    }
+
+    #contact h1{
+      font-size: 3rem;
+    }
   }
 
 
@@ -2052,6 +2068,10 @@ align-items: center;
     margin-bottom: 2rem;
   }
 
+  .about-logo img{
+    width: 100%;
+  }
+
   .about-section #div #shadow{
     font-size: 3.4rem;
   }
@@ -2067,7 +2087,7 @@ align-items: center;
   }
 
   .about-lorcontainer #shadow{
-    font-size: 2.6rem;
+    font-size: 2.2rem;
     margin-bottom: 0rem;
   }
 
@@ -2124,14 +2144,15 @@ align-items: center;
   }
   .about-section .about-header img{
     height: 85%;
-    margin-top: 3rem;
     width: 85%;
+    padding-right: 20px;
   }
   
   .about-section .about-header{
     margin: 0 auto;
     width: 100vw;
     height: 50vh;
+    align-items: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2523,8 +2544,16 @@ font-size: 20px;
     font-size: 2.24rem;
   }
 
+  .project-section .project article .card-body p{
+    font-size: 1rem;
+  }
+
+  .project-section .categories button{
+    margin: 0rem 6px 0.4rem 6px;
+  }
+
   .project-section .project article .card-body ul li{
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 

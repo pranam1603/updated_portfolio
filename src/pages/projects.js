@@ -13,7 +13,6 @@ const Projects = () => {
     const [category, setCategory] = useState(allCategories)
 
     const filterProject = (category) => {
-        console.log(category)
         if (category === 'All') {
             setReactProject(reaProjects)
             return;

@@ -71,9 +71,9 @@ const Hero = () => {
                     </div>
                     <div className='imagecontainer'>
                         <div className='imagebox'>
-                        <img src={Heroimg} />
-                        <p className='js'>JS</p>
-                        <p className='clang'>C#</p>
+                            <img src={Heroimg} />
+                            <p className='js'>JS</p>
+                            <p className='clang'>C#</p>
                         </div>
                     </div>
                 </div>
