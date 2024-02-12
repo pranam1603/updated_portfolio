@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaCode, FaLaptopCode } from 'react-icons/fa'
 import { GiCutDiamond } from "react-icons/gi";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
 
 const Skills = () => {
+
+    useEffect(() => {
+        AOS.init({duration: 500})
+    }, [])
+
     return (
         <div className="skills">
-            <div className="skill-cont">
+            <div className="skill-cont" data-aos="fade-right">
                 <article id="article">
                     <h2><FaCode /></h2>
                     <h4>Front-End Developer</h4>
@@ -15,7 +23,7 @@ const Skills = () => {
                     </p>
                 </article>
             </div>
-            <div className="skill-cont">
+            <div className="skill-cont" data-aos="fade-up" >
                 <article id="article">
                     <h2><GiCutDiamond /></h2>
                     <h4>MERN Developer</h4>
@@ -25,7 +33,7 @@ const Skills = () => {
                     </p>
                 </article>
             </div>
-            <div className="skill-cont">
+            <div className="skill-cont" data-aos="fade-left">
                 <article id="article">
                     <h2><FaLaptopCode /></h2>
                     <h4>Back-End Developer</h4>

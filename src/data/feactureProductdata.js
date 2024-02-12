@@ -27,6 +27,29 @@ export default [
             },
         ]
     },
+    {
+        id: 100,
+        text: 'YelpCamp',
+        url: 'https://yelpcampcode-production.up.railway.app/',
+        code: 'https://github.com/pranam1603/yelpCamp_code',
+        image: Yelp,
+        category: 'node Mongo',
+        type: 'largeScale Project',
+        language: [
+            {
+                icon: <FaNode />,
+                iconText: 'Node',
+            },
+            {
+                icon: <SiMongodb />,
+                iconText: 'Mongo'
+            },
+            {
+                icon: <FaBootstrap />,
+                iconText: 'Boots.'
+            },
+        ]
+    },
 
     {
         id: 24,

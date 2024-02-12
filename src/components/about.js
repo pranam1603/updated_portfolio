@@ -1,8 +1,15 @@
-import React from 'react'
-import aboutImg from '../Images/my-image.png'
+import React, { useEffect } from 'react'
+import aboutImg from '../Images/IMG_7649.png'
 import Particles from 'react-particles-js';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
-const about = () => {
+const About = () => {
+
+    useEffect(() => {
+        AOS.init({duration: 1200})
+    }, [])
+
     return (
         <main id="about">
             <Particles id="aboutparticles"
@@ -48,10 +55,7 @@ const about = () => {
             />
             
             <div className="about-section abouthome-section">
-                <article className="about-img">
-                    <img src={aboutImg} alt="about" />
-                </article>
-                <article className="about-text">
+                <article className="about-text"  data-aos-easing="ease-in-out" data-aos="fade-down-right">
                     <div>
                         <h3 id='shadow'>About Me</h3>
                         <h3>About Me</h3>
@@ -61,9 +65,12 @@ const about = () => {
                     <p>I have a robust skill set encompassing React, Node.js, SQL, HTML, CSS, JavaScript and many more, enabling the creation of dynamic and responsive web applications.</p>
                     <a href="/about" className="main-btn ">Know More</a>
                 </article>
+                <article className="about-img" data-aos="zoom-out-left" data-aos-delay="200">
+                    <img src={aboutImg} alt="about" />
+                </article>
             </div>
         </main>
     )
 }
 
-export default about
+export default About

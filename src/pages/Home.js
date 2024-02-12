@@ -13,11 +13,11 @@ import {
 
 const Home = () => {
 
-    const [isLoading, setisLoading] = useState(true)
+    const [isLoading, setisLoading] = useState(false)
 
-    setTimeout(() => setisLoading(false), 3000)
+    setTimeout(() => setisLoading(false), 1000)
 
-    return <React.Fragment>
+    return <div style={{overflowX: 'hidden'}}>
         {isLoading === true ? <div className='loading'><img alt='loadingimg' src={loadinglogo} /></div> :<div>
             <Hero />
             <Skills />
@@ -25,10 +25,10 @@ const Home = () => {
             <Tabs />
             <FeaturedProducts />
             <Tools />
-            <Bloghome />
-            <Mailbox />
+            {/* <Bloghome /> */}
+            {/* <Mailbox /> */}
         </div>}
-        </React.Fragment>
+        </div>
 
 }
 
