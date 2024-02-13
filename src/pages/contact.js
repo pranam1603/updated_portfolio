@@ -1,6 +1,9 @@
 import React from 'react'
+import { social } from '../data/navLinks'
 import { FaLocationArrow, FaPhone } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import { FaPhoneSquare } from 'react-icons/fa'
+
 
 const contact = () => {
     return (
@@ -12,6 +15,21 @@ const contact = () => {
                 <div className="contact-section">
                     <article className="contact">
                         <div className="contact-info">
+                            <iframe
+                                src="https://www.google.com/maps/embed/v1/place?q=Architect+K+Atelier,+Vaishali+Nagar,+Bhopal,+Madhya+Pradesh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                                style={{width:"600",
+                                height:"450",
+                                frameBorder:"0",
+                                tabIndex:"0"}}/>
+                        </div>
+                        <a href="tel:+918269866601"><FaPhoneSquare/></a>
+                        {social.map(item => {
+                            const { id, url, icon } = item
+                            return (
+                                <a  key={id} href={url} rel="noopener noreferrer" >{icon}</a>
+                            )
+                        })}
+                        {/* <div className="contact-info">
                             <h2><span><FaLocationArrow /></span>Address</h2>
                             <p id="h4">10, Unity Society Kamla Nagar Police Station (462003) Bhopal, Madhya Pradesh </p>
                         </div>
@@ -22,7 +40,7 @@ const contact = () => {
                         <div className="contact-info">
                             <h2><span><FaPhone /></span>Phone</h2>
                             <p id="h4">+91 8269866601</p>
-                        </div>
+                        </div> */}
                     </article>
                     <article className='form-section '>
                         <form action="https://formspree.io/f/mleabeqz"

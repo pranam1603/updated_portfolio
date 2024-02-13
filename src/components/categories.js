@@ -12,7 +12,7 @@ const Categories = ({ category, filterProject }) => {
         <div className="categories">
             {category.map((category, index) => {
                 return (
-                    <button className={activeBtn === index ? 'active' : null} onClick={() => handleClick(category, index)} key={index}>{category}</button>
+                    <button data-aos="fade-right" data-aos-delay="100" className={activeBtn === index ? 'active' : null} onClick={() => handleClick(category, index)} key={index}>{category}</button>
                 )
             })}
         </div>

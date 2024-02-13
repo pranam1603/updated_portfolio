@@ -399,7 +399,6 @@ Variables
 /* hero */
 /* ------------------------- */
 
-
   #hero .hero-info{
     position: absolute;
     top: 50%;
@@ -1155,6 +1154,7 @@ width: 100%;
 }
 
 .copyright-newsletter form button{
+  cursor: pointer;
   background: transparent;
   border: none;
   height: 3rem;
@@ -1197,41 +1197,6 @@ width: 100%;
   padding: 0 !important;
 }
 
-/* .copyright-section div {
-  text-align: center;
-  padding-top: 70px;
-}
-
-.copyright-section div a{
-  color: var(--mainWhite);
-  font-size: 32px;
-  padding-left: 20px;
-}
-
-.copyright-section p {
-  text-align: center;
-  padding-top: 20px;
-  letter-spacing: 4px;
-  color: var(--mainWhite);
-  font-size: 13px;
-  line-height: 25px;
-}
-
-.copyright-section p span {
-  color: var(--primaryColor);
-  font-weight: bold;
-}
-
-.copyright-section p .heart{
-  color: darkred;
-  font-size: 20px;
-}
-
-.heart-para{
-  margin: 0;
-  padding: 0 !important;
-}
-
 @media (max-width:700px) {
   .copyright-section p{
     letter-spacing: 3px;
@@ -1241,19 +1206,13 @@ width: 100%;
 /* ------------------ */
   /* featured-products */
 /* ------------------ */
-
-.featured-products{
-  display: flex;
-  color: var(--mainWhite);
-}
-
 .featured-products .product-text{
 width: 30%;
 }
 
 .featured-products .product-showcase{
   margin-left: 3rem;
-  width: 80%;
+  width: 70%;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -1269,7 +1228,6 @@ width: 30%;
 } 
 
 #feacture{
-  /* background-color: var(--clr-primary-4); */
   padding: 100px 100px 100px 100px;
 }
 
@@ -1301,7 +1259,7 @@ width: 30%;
 }
 
 .product-text p{
-  color: var(--primaryColor);
+  color: var(--primaryColor) !important;
   font-size: 15px;
   font-weight: bold;
   word-spacing: 5px;
@@ -1365,6 +1323,7 @@ width: 30%;
 
 .product p{
   width: 85%;
+  color: var(--mainWhite);
 }
 
 .product .productvideo{
@@ -1401,7 +1360,7 @@ width: 30%;
 
 @media (max-width: 1000px) {
   .featured-products{
-    display: block;
+    /* display: block; */
     margin: 0 auto;
   }
 
@@ -1634,6 +1593,7 @@ width: 30%;
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 3px;
+  margin-bottom: 7rem;
 }
 
 #contact #shadow{
@@ -1654,43 +1614,64 @@ align-items: center;
 }
 
 .contact-section article{
-  margin-left: 200px;
-  width: 50%;
+  padding-left: 100px;
+  width: 45%;
+  height: 100%;
+}
+
+.contact-section .contact{
+  height: 100%;
+  border-right: 0.05rem solid var(--mainWhite);
+}
+
+.contact-section .contact iframe{
+  width: 85%;
+  height: 350px;
+  border-radius: 0.6rem;
+  border: 0.2rem solid var(--primaryColor);
 }
 
 .contact-info {
-  margin-bottom: 40px;
-  align-items: center;
-}
-
-.contact-info {
+  margin-bottom: 20px;
   text-align: start;
 }
 
 .contact-info h2{
   font-weight: 700;
   letter-spacing: 12px;
-  margin-bottom: 20px;
   color: var(--primaryColor);
   font-size: 45px;
 }
 
+.contact a{
+  font-size: 2.8rem;
+  margin-right: 1rem;
+  color: var(--mainWhite) !important;
+}
+
 .contact-info p{
-  font-size: 14px;
-  text-align: start;
+  font-size: 1.2rem;
+  text-align: center;
   text-transform: none;
   letter-spacing: 3px;
   color: var(--mainWhite);
   line-height: 30px;
   width: 480px;
   font-weight: bold;
-  letter-spacing: 2px;
+  margin-bottom: 0.2rem;
+  letter-spacing: 1px;
 }
 
 .contact-info h2 span{
   margin-right: 20px;
   font-size: 25px;
   color: var(--clr-primary-5);
+}
+
+.form-section{
+  display: flex;
+  align-items: start;
+  justify-content: start;
 }
 
 .form-section form{
@@ -1700,7 +1681,7 @@ align-items: center;
 }
 
 .form-section form input{
-  width: 35rem;
+  width: 85%;
   height: 3rem;
   margin: 20px 0px 30px 0px;
   background: transparent;
@@ -1709,18 +1690,22 @@ align-items: center;
   outline: none;
   color: var(--mainWhite);
   font-weight: bold;
-  border-bottom: 2px solid var(--primaryColor);
+  border-bottom: 2px solid var(--mainWhite);
+}
+
+.form-section form input:first-child{
+  margin-top: 0rem;
 }
 
 .form-section form input::placeholder{
-  color: var(--primaryColor);
-  font-weight: bold;
-  letter-spacing: 10px;
-  font-size: 15px;
+  color: var(--mainWhite);
+  font-weight: lighter;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
 }
 
 .form-section form textarea{
-  width: 35rem;
+  width: 85%;
   padding-bottom: 0px;
   color: var(--mainWhite);
   margin: 20px 0px 30px 0px;
@@ -1728,19 +1713,20 @@ align-items: center;
   border: none;
   font-size: 1rem;
   outline: none;
-  border-bottom: 2px solid var(--primaryColor);
+  border-bottom: 2px solid var(--mainWhite);
 }
 
 .form-section form textarea::placeholder{
-  color: var(--primaryColor);
+  color: var(--mainWhite);
   font-weight: bold;
-  letter-spacing: 8px;
-  font-weight: bold;
-  font-size: 15px;
+  letter-spacing: 0.2rem;
+  font-weight: lighter;
+  font-size: 1.2rem;
   }
 
   .form-section form button{
-    padding: 0.4rem 1.6rem;
+    padding: 1.8rem 1.2rem;
+    border-radius: 100%;
     background: var(--primaryColor);
     outline: 0.2rem solid var(--primaryColor);
     color: var(--mainWhite);
@@ -2146,37 +2132,37 @@ align-items: center;
   cursor: pointer;
   position: relative;
   border-radius:0.6rem;
-  border: 0.2rem solid var(--primaryColor);
+  /* border: 0.2rem solid var(--primaryColor); */
 }
 
 .about-lor img{
   width: 100%;
   opacity: 0.8;
   height: 250px;
-  border-top-right-radius :0.6rem;
-  border-top-left-radius :0.6rem;
+  border-radius: 0.4rem;
 }
 
 .about-lor div{
-  background-color: var(--clr-primary-4);
   border-bottom-right-radius :0.6rem;
   border-bottom-left-radius :0.6rem;
-  padding: 2rem 1rem;
-  border-top: 0.3rem solid var(--primaryColor);
+  padding: 1rem 0rem;
 }
 
 .about-lor div h3{
   color: var(--primaryColor);
-  font-size: 30px;
-  margin-bottom: 1.4rem;
+  font-size: 2rem;
+  padding-bottom: 1rem;
   line-height: 2.4rem;
-  font-weight: 700;
+  width: 80%;
+  font-weight: 500;
+  border-bottom: 0.05rem solid var(--mainWhite);
 }
 
 .about-lor div p{
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  font-weight: lighter;
+  margin-bottom: 0.2rem;
+  color: var(--mainWhite);
 }
 
 .about-lor .about-lorpreview{
@@ -2188,7 +2174,7 @@ align-items: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0.6rem;
+  border-radius: 0.4rem;
   transform: translate(-50%, -50%);
   z-index: 10;
   width: 100%;
@@ -2395,7 +2381,6 @@ align-items: center;
 /* ---------------- */
 
 .development-tools{
-  padding: 100px 100px 70px 100px;
   display: inline-block;
   width: 100%;
 }
@@ -2405,13 +2390,12 @@ align-items: center;
   margin-bottom: 100px;
   display: flex;
   width: 100%;
-  /* height: clamp(3em, 10vw, 6em); */
+  height: clamp(3em, 10vw, 6em);
   overflow: hidden;
-        /* font-family: sans-serif; */
 }
 
 .development-tools #header h3{
-  /* font-size: clamp(2rem, 5vw, 4rem); */
+  font-size: clamp(2rem, 5vw, 4rem);
   text-transform: uppercase;
   font-size: 4.4rem;
   font-weight: 700;
@@ -2460,6 +2444,7 @@ align-items: center;
 }
 
 .tools{
+  padding: 0px 100px 70px 100px;
   display: flex;
   justify-content: center;
   align-items: center;

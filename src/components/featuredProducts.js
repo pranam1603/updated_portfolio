@@ -3,10 +3,10 @@ import HomeProjects from './homeProjects';
 import feactureProductdata from '../data/feactureProductdata';
 
 
-const featuredProducts = () => {
+const FeaturedProducts = () => {
     return (
         <div id="feacture">
-            <div className="featured-products">
+            <div className="featured-products" style={{display: 'flex'}}>
                 <div className='product-text'>
                     <div>
                         <h3 id='shadow'>about our</h3>
@@ -17,13 +17,13 @@ const featuredProducts = () => {
                     <a href="/projects">All Projects</a>
                 </div>
                 <div className='product-showcase'>
-                {feactureProductdata.map((item, index) => {
-                    return <HomeProjects key={index} item={item} />
-                })}
+                    {feactureProductdata.map((item, index) => {
+                        return <HomeProjects key={index} item={item} />
+                    })}
                 </div>
             </div>
         </div>
     )
 }
 
-export default featuredProducts
+export default FeaturedProducts

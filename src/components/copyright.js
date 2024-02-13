@@ -1,16 +1,23 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { social } from '../data/navLinks'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 
-const copyright = () => {
+const Copyright = () => {
+
+    useEffect(() => {
+        AOS.init({duration: 1200})
+    }, [])
+
     return (
         <>
             <section className="copyright-section">
-                <div className='copyright-info'>
-                    <div className='note'>
+                <div className='copyright-info' data-aos="fade-right" data-aos-delay="100">
+                    <div className='note' data-aos="fade-right" data-aos-delay="100">
                         <h1>This Experience Will Change Your Life</h1>
                     </div>
-                    <div className='content'>
+                    <div className='content' data-aos="fade-right" data-aos-delay="100">
                         <ul>
                             <li><a href='#'>HOME</a></li>
                             <li><a href='#'>ABOUT US</a></li>
@@ -24,9 +31,9 @@ const copyright = () => {
                     </div>
                 </div>
                 <div className='copyright-newsletter'>
-                    <h1>GET IN TOUCH !</h1>
+                    <h1 data-aos="fade-right" data-aos-delay="100">GET IN TOUCH !</h1>
                     <form action="https://formspree.io/f/mzbyrbkn"
-                        method="POST">
+                        method="POST" data-aos="fade-right" data-aos-delay="100">
                         <input type="email" placeholder="Drop mail for work together!" name="reply_to" />
                         <button type="submit">Send</button>
                     </form>
@@ -34,7 +41,7 @@ const copyright = () => {
                         {social.map((item => {
                             const { id, url, icon } = item
                             return (
-                                <a key={id} href={url} rel="noopener noreferrer">{icon}</a>
+                                <a  key={id} href={url} rel="noopener noreferrer" >{icon}</a>
                             )
                         }))}
                     </div>
@@ -54,4 +61,4 @@ const copyright = () => {
     )
 }
 
-export default copyright
+export default Copyright
