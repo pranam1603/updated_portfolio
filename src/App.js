@@ -39,7 +39,7 @@ function App() {
         <Route path='/projects' exact>
           <PROJECTS />
         </Route>
-        <Route path='/blog' exact>
+        {/* <Route path='/blog' exact>
           <BLOG />
         </Route>
         <Route path='/blog/1' exact>
@@ -47,7 +47,7 @@ function App() {
         </Route>
         <Route path='/blog/2' exact>
           <BLOG2 />
-        </Route>
+        </Route> */}
         <Route path='/lor/1' exact>
           <LOR1 />
         </Route>

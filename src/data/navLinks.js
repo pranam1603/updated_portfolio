@@ -21,13 +21,13 @@ export const links = [
     {
         id: 4,
         url: '/contact',
-        text: 'contact',
+        text: 'contact us',
     },
-    {
-        id: 5,
-        url: '/blog',
-        text: 'blog',
-    },
+    // {
+    //     id: 5,
+    //     url: '/blog',
+    //     text: 'blog',
+    // },
 ]
 
 export const social = [

@@ -44,8 +44,7 @@ const About = () => {
                     <img src={aboutIMage} alt="reload" />
                 </div>
                 <div id="div" data-aos="zoom-out-left" data-aos-delay="100">
-                    <h2 id='shadow' data-aos="fade-left" data-aos-delay="200">About Me</h2>
-                    <h2 data-aos="fade-right" data-aos-delay="200">About Me</h2>
+                    <h2 data-aos="flip-left" data-aos-delay="200">About <span>Me</span><span class="bg-text">ABOUT</span></h2>
                     <p data-aos="fade-left" data-aos-delay="200">
                         Hello, I am Pranam Jain. I have completed my bachelors of Engineering in Computer Science from RGPV University, Bhopal. As apart time I worked for
                         Chegg India as a CSE Expert where i helped other students in solving their douts.
@@ -67,8 +66,9 @@ const About = () => {
                 </div>
             </div>
             <div className='about-educations'>
-                <h2 id='shadow' data-aos="fade-left" data-aos-delay="100">My Education </h2>
-                <h2 data-aos="fade-right" data-aos-delay="100">My Education </h2>
+                <h2 data-aos="flip-left" data-aos-delay="200">TIMELINE<span class="bg-text">MY STATS</span></h2>
+                {/* <h2 id='shadow' data-aos="fade-left" data-aos-delay="100">My Education </h2>
+                <h2 data-aos="fade-right" data-aos-delay="100">My Education </h2> */}
                 <div className='about-education'>
                     <div className='about-educationtab' data-aos="flip-right" data-aos-delay="100">
                         <h3 data-aos="fade-right" data-aos-delay="150">2018-2019</h3>
@@ -97,8 +97,7 @@ const About = () => {
                 </div>
             </div>
             <div className='about-skillcontainer'>
-                <h2 id='shadow' data-aos="fade-left" data-aos-delay="100">My Skills</h2>
-                <h2 data-aos="fade-right" data-aos-delay="100">My Skills</h2>
+                <h2 data-aos="flip-left" data-aos-delay="200">SKILLS<span class="bg-text">MY Skills</span></h2>
                 <hr/>
                 <div className='about-skills' >
                     <div data-aos="flip-right" data-aos-delay="100" className='about-skill' >
@@ -140,8 +139,7 @@ const About = () => {
                 </div>
             </div>
             <div className='about-lorcontainer'>
-                <h2 id='shadow' data-aos="fade-left" data-aos-delay="100">Letter of Recommendation</h2>
-                <h2 data-aos="fade-right" data-aos-delay="100">Letter of Recommendation</h2>
+                <h2 data-aos="flip-left" data-aos-delay="200">LORs<span class="bg-text">LORs</span></h2>
                 <div className='about-lors'>
                     <div className='about-lor' data-aos="fade-right" data-aos-delay="100">
                         <div className='about-lorpreview'>

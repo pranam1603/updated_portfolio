@@ -32,8 +32,9 @@ const Projects = () => {
     return (
         <div className='color' id="top">
             <div className="project-section" id="project-container">
-                <h2 id='shadow' data-aos="fade-left" data-aos-delay="100">Projects</h2>
-                <h2 data-aos="fade-right" data-aos-delay="100">Projects</h2>
+                <h2 data-aos="flip-left" data-aos-delay="200">Projects<span class="bg-text">MY WORK</span></h2>
+                {/* <h2 id='shadow' data-aos="fade-left" data-aos-delay="100">Projects</h2>
+                <h2 data-aos="fade-right" data-aos-delay="100">Projects</h2> */}
                 <Categories filterProject={filterProject} category={category} setCategory={setCategory} />
                 <Project reactProject={reactProject} />
             </div>

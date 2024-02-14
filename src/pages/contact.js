@@ -1,20 +1,26 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { social } from '../data/navLinks'
-import { FaLocationArrow, FaPhone } from "react-icons/fa";
-import { IoMdMail } from "react-icons/io";
 import { FaPhoneSquare } from 'react-icons/fa'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
+const Contact = () => {
+
+    useEffect(() => {
+        AOS.init({duration: 1200})
+    }, [])
 
 
-const contact = () => {
     return (
         <>
             <div id="contact">
-                <h1 id="shadow">Contact Us</h1>
-                <h1 >Contact Us</h1>
+                <h2 data-aos="flip-left" data-aos-delay="200">Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                {/* <h1 id="shadow" data-aos="fade-left" data-aos-delay="200" >Contact Us</h1>
+                <h1 data-aos="fade-right" data-aos-delay="200" >Contact Us</h1> */}
                 {/* <div id="underline"></div> */}
                 <div className="contact-section">
-                    <article className="contact">
-                        <div className="contact-info">
+                    <article className="contact" data-aos="fade-right" data-aos-delay="200" >
+                        <div className="contact-info" data-aos="fade-right" data-aos-delay="400" >
                             <iframe
                                 src="https://www.google.com/maps/embed/v1/place?q=Architect+K+Atelier,+Vaishali+Nagar,+Bhopal,+Madhya+Pradesh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                                 style={{width:"600",
@@ -22,11 +28,11 @@ const contact = () => {
                                 frameBorder:"0",
                                 tabIndex:"0"}}/>
                         </div>
-                        <a href="tel:+918269866601"><FaPhoneSquare/></a>
+                        <a href="tel:+918269866601" ><FaPhoneSquare/></a>
                         {social.map(item => {
                             const { id, url, icon } = item
                             return (
-                                <a  key={id} href={url} rel="noopener noreferrer" >{icon}</a>
+                                <a key={id} href={url} rel="noopener noreferrer" >{icon}</a>
                             )
                         })}
                         {/* <div className="contact-info">
@@ -43,7 +49,7 @@ const contact = () => {
                         </div> */}
                     </article>
                     <article className='form-section '>
-                        <form action="https://formspree.io/f/mleabeqz"
+                        <form action="https://formspree.io/f/mleabeqz" data-aos="fade-left" data-aos-delay="200" 
                             method="POST">
                             <input type="text" placeholder="NAME" name="name" />
                             <input type="text" placeholder="EMAIL" name="email" />
@@ -57,4 +63,4 @@ const contact = () => {
     )
 }
 
-export default contact
+export default Contact
