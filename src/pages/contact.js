@@ -14,13 +14,13 @@ const Contact = () => {
     return (
         <>
             <div id="contact">
-                <h2 data-aos="flip-left" data-aos-delay="200">Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                <h2 data-aos="flip-left" data-aos-delay="100">Contact <span>Me</span><span class="bg-text">Contact</span></h2>
                 {/* <h1 id="shadow" data-aos="fade-left" data-aos-delay="200" >Contact Us</h1>
                 <h1 data-aos="fade-right" data-aos-delay="200" >Contact Us</h1> */}
                 {/* <div id="underline"></div> */}
                 <div className="contact-section">
-                    <article className="contact" data-aos="fade-right" data-aos-delay="200" >
-                        <div className="contact-info" data-aos="fade-right" data-aos-delay="400" >
+                    <article className="contact" data-aos="fade-right" data-aos-delay="100" >
+                        <div className="contact-info" data-aos="fade-right" data-aos-delay="200" >
                             <iframe
                                 src="https://www.google.com/maps/embed/v1/place?q=Architect+K+Atelier,+Vaishali+Nagar,+Bhopal,+Madhya+Pradesh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                                 style={{width:"600",
@@ -49,7 +49,7 @@ const Contact = () => {
                         </div> */}
                     </article>
                     <article className='form-section '>
-                        <form action="https://formspree.io/f/mleabeqz" data-aos="fade-left" data-aos-delay="200" 
+                        <form action="https://formspree.io/f/mleabeqz" data-aos="fade-left" data-aos-delay="100" 
                             method="POST">
                             <input type="text" placeholder="NAME" name="name" />
                             <input type="text" placeholder="EMAIL" name="email" />
