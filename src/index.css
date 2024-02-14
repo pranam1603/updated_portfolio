@@ -533,6 +533,7 @@ Variables
 
   #hero-imagebg {
     width: 80%;
+    height: 90vh;
     opacity: 0.4;
   }
 
@@ -1826,7 +1827,7 @@ align-items: center;
 
     #contact h2{
       font-size: 3rem;
-      word-spacing: 6rem;
+      word-spacing: 60rem;
     }
 
     .contact-info h2{
@@ -2366,6 +2367,7 @@ align-items: center;
   .about-section #div{
     padding-top: 50px;
     padding-bottom: 20px;
+    margin-bottom: 4rem;
     height: 100%;
   }
   
