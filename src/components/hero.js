@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import Particles from 'react-particles-js';
 import Typewriter from 'typewriter-effect';
 import { FaInstagram, FaReact, FaTwitter, FaGithub, FaLinkedinIn, FaReddit, FaHtml5 } from 'react-icons/fa'
-import Heroimg from '../Images/heero.avif'
+import Heroimg from '../Images/9b4ec7ba0fc7e217d8f0f0675038c6d7.jpg'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 

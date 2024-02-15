@@ -415,6 +415,8 @@ Variables
     width: 30%;
     transform: translate(-50%, -50%);
     height: 90%;
+    filter: grayscale();
+    border-radius: 1rem;
   }
 
   #hero h1{
@@ -534,7 +536,6 @@ Variables
   #hero-imagebg {
     width: 80%;
     height: 90vh;
-    opacity: 0.4;
   }
 
   #hero h1 {
