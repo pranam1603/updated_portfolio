@@ -13,7 +13,7 @@ import {
 
 const Home = () => {
 
-    const [isLoading, setisLoading] = useState(false)
+    const [isLoading, setisLoading] = useState(true)
 
     setTimeout(() => setisLoading(false), 1000)
 
